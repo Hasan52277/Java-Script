@@ -2,7 +2,7 @@ const accountId = 17383
 let accountEmail = "Hasan@gmail.com"
 var accountCity = "bareilly"
 
-// accountId =2 //not allowed
+// accountId =2  not allowed
 
 //accountId = 17383
 accountEmail = "mohd@gmail.com"
