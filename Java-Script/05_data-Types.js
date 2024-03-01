@@ -12,7 +12,7 @@ let state = null
 // string => true/false
 // null =>standlone value
 // undefined =>
-  symbol=> unique
+ // symbol=> unique
 
 
 
