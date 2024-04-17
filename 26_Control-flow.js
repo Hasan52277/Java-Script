@@ -50,12 +50,49 @@
 const userLoggedIn =true
 const debitcards =true
 const LoggedInfromgoogle = false
-const LoggedInfr
+const LoggedInfromgmail = true
 
-if (userLoggedIn && debitcards) {
+if (userLoggedIn && debitcards) {        //  AND
     console.log("allow to buy course");
     
 }
-if () {
+
+if (LoggedInfromgoogle || LoggedInfromgmail) {    // OR
+    console.log("user loggedin");
     
+}
+
+
+
+
+// ******************* Switch ****************
+
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }
+
+
+const month = "march"
+switch (month) {
+    case "january":
+        console.log("january");
+        break;
+    case "feb":
+        console.log("feb");
+        break;
+
+    case "march":
+        console.log("march");
+        break;
+    case "april":
+        console.log("april");
+        break;
+
+    default:
+        break;
 }
