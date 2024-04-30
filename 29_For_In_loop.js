@@ -1,4 +1,7 @@
-const myobject = {
+
+// 2....> For in loop  ***********
+
+const myObject = {
     js:'javascript',
     cpp:'c++',
     rb:"ruby",
@@ -15,12 +18,12 @@ for (const key in progammming) {
 // console.log(`${key} shortcut for ${progammming[key]}`);   
 }
 
-const map = new Map()
+// const map = new Map()
 map.set('In','india')
 map.set('USA','united state of india ')
 map.set('fr','franch')
 
 for (const key in map) {
-    console.log(map);
+  //  console.log(map);
     
 }

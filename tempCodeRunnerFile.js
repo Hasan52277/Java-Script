@@ -1,7 +1,3 @@
-
-// let index = 0
-// while (index<=10) {
-//     console.log(`value of index is ${index}`);
-
-//     index++;
-// }
+map.set('In','india')
+// map.set('USA','united state of india ')
+// m

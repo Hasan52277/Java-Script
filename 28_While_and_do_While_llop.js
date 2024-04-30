@@ -11,14 +11,14 @@
 
 // let arr = 0
 // while (arr<myArray.length) {
-//     console.log(`value is ${myArray[arr]}`);
+//     console.log(`value is ${myArray[arr]}`); 
 //     arr =arr+1;
  
 // }
 
 // do while loop
 
-let score = 11;
+let score = 1;
 do {
     console.log(`score is ${score}`);
     score++;
