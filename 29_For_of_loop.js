@@ -33,7 +33,7 @@ const myobject ={
     game1:'NFS',
     game2:'Spiderman'
 }
-// for (const [ket,value] of myobject) {
+// for (const [key,value] of myobject) {
 //     console.log(key,':-',value);
     
 // }
