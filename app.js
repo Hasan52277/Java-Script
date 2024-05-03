@@ -1,5 +1,6 @@
-const addtwo =(num1,num2) =>{
-    return num1+num2
-}
+// reduce method
 
-console.log(addtwo(2,4));
+const newnum = [1,2,3,4,5]
+
+const mytotal = newnum.reduce((accu,curr) =>(accu*curr),1)
+console.log(mytotal);

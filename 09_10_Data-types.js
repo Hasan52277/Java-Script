@@ -26,6 +26,7 @@ const Myfunction(){
 }
 
 // .......********  Memory   *********.................
+
 // two types 
 
 // Stack(Primitive)  , Heap(non-primitive)
