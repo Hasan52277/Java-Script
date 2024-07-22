@@ -1,13 +1,21 @@
-const name  = "Hasan"
-const num = 29
+const name = ["Hasan","zain","junaid"]
+const  num = [1,2,3,4,5,6,7,8]
+// console.log(num);
 
-// console.log(`My name is ${name} and My age is ${num}`);
+
+// name.pop()
+// console.log(name);
+
+// name.unshift("")
+// console.log(name);
+
+//  slice and splice
+
+console.log("A",name);
+const my1 = name.slice(1,3)
+console.log(my1);
 
 
-const newname  = new String(" Hasan ")
-console.log(newname);
-
-// console.log(newname.fontsize())
-// console.log(newname.charAt("3"));
-// console.log(newname.substring(1,4));
-console.log(newname.trim());
+console.log("B",name);
+const my2 = name.splice(0,2)
+console.log(my2);
