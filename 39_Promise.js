@@ -42,7 +42,7 @@ const promiseFour = new Promise(function (resolve, reject) {
   setTimeout(function () {
     let error = true;
     if (!error) {
-      resolve({ name: "Mohd", password: "123" });
+      resolve({ username: "Mohd", password: "123" });
     } else {
       reject("ERROR:Somthing is worng");
     }
