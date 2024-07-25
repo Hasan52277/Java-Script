@@ -1,4 +1,8 @@
-welcomemessage:function () {
-//     console.log(`${this.username}`);
-    
-// }
+rname}`);
+}
+
+}
+
+const chai = new Teacher("chai","chai@gamil.com","123")
+
+chai.addCourse()
