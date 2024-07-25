@@ -1,2 +1,4 @@
-console.log(user.loginaccoun);
-// console.log(user.getUserDetails);
+welcomemessage:function () {
+//     console.log(`${this.username}`);
+    
+// }

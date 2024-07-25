@@ -1,12 +1,32 @@
-// let myName = "hitesh     "
-// let mychannel = "chai     "
+// function multipleby5(num) {
+//   return num * 5;
+// }
+// multipleby5.power = 2;
 
-// console.log(myName.trueLength);
+// console.log(multipleby5(2));
+// console.log(multipleby5.power);
+// console.log(multipleby5.prototype);
+
+// function createUser(username, score) {
+//   this.useranem = username;
+//   this.score = score;
+// }
+
+// createUser.prototype.increment = function () {
+//    this.score++
+    
+// }
+
+// const chai = createUser("chai",25)
+// const tea = createUser("chai",250)
+
+
+let myname  = "Hasan  "
+
+// console.log(myname.trueLenght);
 
 
 let myHeros = ["thor", "spiderman"]
-
-
 let heroPower = {
     thor: "hammer",
     spiderman: "sling",
