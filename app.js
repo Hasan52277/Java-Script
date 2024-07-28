@@ -1,14 +1,34 @@
-// While loop
-// let i = 0
-// while (i<10) {
-//   console.log(i);  
-//   i++
-// }
+// For Each 
 
-let myArray = ["Hasan","zain","junaid"]
-let arr = 0
-while (arr>myArray.length) {
-    console.log(myArray[arr]);
-    
-}
-console.log(myArray);
+// let  mycoding = ["java","python","c++","c"]
+
+// // let name = mycoding.forEach(function (val) {
+// //     // console.log(val);
+// //     return 
+// // })
+
+
+// mycoding.forEach((item)=>{
+// console.log(item);
+// })
+const mycoding = [
+    {
+        languagename :"javascript",
+        languagefilename:"js"
+    },
+    {
+        languagename :"java",
+        languagefilename:"java"
+    },
+    {
+        languagename :"python",
+        languagefilename:"Python",
+    },
+    {
+        languagename :"c+",
+        languagefilename:"c+"
+    }
+]
+mycoding.forEach(function (item) {
+    console.log(item.languagefilename);
+})
