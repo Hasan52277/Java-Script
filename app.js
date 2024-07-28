@@ -1,11 +1,14 @@
-// for loop 
+// While loop
+// let i = 0
+// while (i<10) {
+//   console.log(i);  
+//   i++
+// }
 
-for(let i =0; i<=10; i++){
-    const Element  =i
-    if (Element == 5) {
-        console.log("5 is a best Num");
-        break
-    }
-    console.log(i);
-   
+let myArray = ["Hasan","zain","junaid"]
+let arr = 0
+while (arr>myArray.length) {
+    console.log(myArray[arr]);
+    
 }
+console.log(myArray);
